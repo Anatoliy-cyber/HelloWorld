@@ -74,7 +74,7 @@ public class Main {
         var moreEmploee = staffNeeded + 94;
         var workWithMore = moreEmploee * oneEmployee;
         System.out.println("А для второй части задачи ответ был следующим ");
-        System.out.println("Если в компании работает " +moreEmploee + " человек, то всего " + workWithMore + " часов работы может быть поделено между сотрудниками.");
+        System.out.println("Если в компании работает " + moreEmploee + " человек, то всего " + workWithMore + " часов работы может быть поделено между сотрудниками.");
 
     }
     }
