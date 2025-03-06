@@ -1,14 +1,10 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //Задача №1:переменной dog значение 8.0;
-        //переменной cat значение 3.6;
-        //переменной paper значение 763789.
+        //Задача №1
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
-        System.out.println("Мы где-то взяли всего 8 собак, 3.6(одна без лапы и уха) кошек и ограбили завод по производству бумаги...");
+        System.out.println("Мы где-то взяли всего 8 собак, 3.6 (одна без лапы и уха) кошек и ограбили завод по производству бумаги...");
         System.out.println("Собак " + dog);
         System.out.println("Котов " + cat);
         System.out.println("Бумаги " + paper);
@@ -71,10 +67,10 @@ public class Main {
         var oneEmployee = 8;
         var staffNeeded = totalWork/oneEmployee;
         System.out.println("Помню, что ответом для первой части задачи было " + staffNeeded + " .");
-        var moreEmploee = staffNeeded + 94;
-        var workWithMore = moreEmploee * oneEmployee;
+        var moreEmployee = staffNeeded + 94;
+        var workWithMore = moreEmployee * oneEmployee;
         System.out.println("А для второй части задачи ответ был следующим ");
-        System.out.println("Если в компании работает " +moreEmploee + " человек, то всего " + workWithMore + " часов работы может быть поделено между сотрудниками.");
+        System.out.println("Если в компании работает " + moreEmployee + " человек, то всего " + workWithMore + " часов работы может быть поделено между сотрудниками.");
 
     }
 }
